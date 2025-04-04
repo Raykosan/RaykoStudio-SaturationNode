@@ -14,11 +14,11 @@
 
 ## 🛠 Установка
 
-1. Скопируйте папку `RaykoStudio_Nodes` в:
-   ```
-   ComfyUI/custom_nodes/
-   ```
-2. Перезапустите ComfyUI
+Доступна установка через Менеджер ComfyUI
+или
+используйте команду git clone https://github.com/Raykosan/RaykoStudio-SaturationNode/` из папки custom_nodes
+или
+Скопируйте папку `RaykoStudio_Nodes` в ComfyUI/custom_nodes/. Перезапустите ComfyUI
 
 ## 🎛 Использование
 
