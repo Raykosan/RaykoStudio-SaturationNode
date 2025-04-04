@@ -1,18 +1,16 @@
 {
   "name": "comfyui-rs-saturation-node",
   "version": "1.0.0",
-  "description": "Custom node for adjusting saturation in ComfyUI workflows.",
+  "description": "Custom saturation adjustment node for ComfyUI",
   "author": "Raykosan",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Raykosan/ComfyUI_RS-SaturationNode"
   },
-  "node_folder": "custom_nodes",
   "comfyui": {
-    "display_name": "ComfyUI RS Saturation Node",
-    "author": "Raykosan",
-    "version": "1.0.0",
-    "nodes": ["nodes/RS_Saturation_switch.py"]
+    "nodes": [
+      "nodes/RS_Saturation_switch.py"
+    ]
   }
 }
