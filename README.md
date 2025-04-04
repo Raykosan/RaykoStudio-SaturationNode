@@ -27,12 +27,12 @@ Restart ComfyUI
 ## 🎛 Usage
 
 🦊 RS Safe Saturation  
-| Mode       | Description                          | Recommendations          |
-|------------|--------------------------------------|--------------------------|
-| **0.0**    | Full desaturation                    | Black & white effects    |
-| **1.0**    | Original saturation                  | Reference image          |
-| **1.5**    | Safe enhancement                     | Best quality balance     |
-| **3.0**    | Maximum saturation                   | Special effects          |
+| Range      | Processing Type               | Use Case                     |
+|------------|-------------------------------|-----------------------------|
+| 0.0-0.9    | Toning/desaturation           | Gradual color removal       |
+| 1.0-1.3    | Natural enhancement           | Recommended range           |
+| 1.3-2.0    | Vibrant artistic effects      | Stylization                 |
+| 2.0-3.0    | Maximum saturation            | Cinematic effects           |
 
 ## ⚙️ Technical Details  
 
