@@ -1,60 +1,72 @@
-# 🦊 RS Safe Saturation Node for ComfyUI
+🦊 RS Safe Saturation Node for ComfyUI
 
-Профессиональный контроль насыщенности изображения с защитой от артефактов и пересветов.
+Professional image saturation control with artifact and highlight protection.
 
-![Demo](web/preview.png)
+Demo
+🔥 Features
 
-## 🔥 Особенности
+    Smooth adjustment with 0.05 steps
 
-- **Плавное регулирование** с шагом 0.05
-- **Интеллектуальное усиление** без пересветов
-- **Защита от артефактов** даже на экстремальных значениях
-- **Оптимизировано** для работы с batch-изображениями
-- **Поддержка** Windows/Linux, Python 3.11+, PyTorch 2.0+
+    Smart boosting without overexposure
 
-## 🛠 Установка
+    Artifact protection even at extreme values
 
-Доступна установка через Менеджер ComfyUI
-или
-используйте команду git clone https://github.com/Raykosan/RaykoStudio-SaturationNode/` из папки custom_nodes
-или
-Скопируйте папку `RaykoStudio_Nodes` в ComfyUI/custom_nodes/. Перезапустите ComfyUI
+    Optimized for batch image processing
 
-## 🎛 Использование
+    Supports Windows/Linux, Python 3.11+, PyTorch 2.0+
 
-```
+🛠 Installation
+
+    Copy the RaykoStudio_Nodes folder to:
+    Copy
+
+    ComfyUI/custom_nodes/
+
+    Restart ComfyUI
+
+🎛 Usage
+Copy
+
 [ 🦊 RS Safe Saturation ]
-├── Image: [Подключите изображение]
+├── Image: [Connect image]
 ├── Intensity: 1.0 (0.0-3.0)
-│   ├── 0.0 = Полное обесцвечивание
-│   ├── 1.0 = Оригинальная насыщенность
-│   ├── 1.5 = Безопасное усиление
-│   └── 3.0 = Максимальная насыщенность (с защитой)
-└── Output: [Обработанное изображение]
-```
+│   ├── 0.0 = Full desaturation
+│   ├── 1.0 = Original saturation
+│   ├── 1.5 = Safe boost
+│   └── 3.0 = Maximum saturation (protected)
+└── Output: [Processed image]
 
-## ⚙️ Технические детали
+⚙️ Technical Details
+Algorithm:
 
-### Алгоритм работы:
-1. Конвертация в luminance-пространство
-2. Нелинейное изменение насыщенности:
-   - Для значений <1.0 - линейная интерполяция
-   - Для значений >1.0 - адаптивное усиление с S-образной кривой
-3. Автоматическая коррекция пересветов
+    Conversion to luminance space
 
-### Рекомендуемые значения:
-- **0.0-0.9**: Тонирование/уменьшение насыщенности
-- **1.0-1.3**: Естественное усиление (рекомендуется)
-- **1.3-2.0**: Яркие цвета для художественных эффектов
-- **2.0-3.0**: Максимальная насыщенность (для спецэффектов)
+    Non-linear saturation adjustment:
 
-## 📜 Лицензия
-MIT License. Используйте свободно в коммерческих и некоммерческих проектах.
+        Values <1.0: Linear interpolation
 
-## 🤝 Поддержка
-Нашли баг или есть предложения?  
-[Создайте issue на GitHub](https://github.com/Raykosan/RaykoStudio-SaturationNode/issues)
+        Values >1.0: Adaptive S-curve boosting
+
+    Automatic highlight correction
+
+Recommended values:
+
+    0.0-0.9: Toning/reduced saturation
+
+    1.0-1.3: Natural enhancement (recommended)
+
+    1.3-2.0: Vibrant colors for artistic effects
+
+    2.0-3.0: Max saturation (for special FX)
+
+📜 License
+
+MIT License. Free for commercial and non-commercial use.
+🤝 Support
+
+Found a bug or have suggestions?
+[Create a GitHub issue](https://github.com/Raykosan/RaykoStudio-SaturationNode/issues)
 
 ---
 
-> "Лучшая насыщенность - та, которую не видно" © RaykoStudio 2024
+> "The best saturation is the one you don’t notice" © RaykoStudio 2025
