@@ -1,4 +1,4 @@
-# 🦊 RS Safe Saturation Node for ComfyUI  
+# 🦊 RaykoStudio Saturation Switch Node for ComfyUI  
 **Professional image saturation control with artifact and highlight protection.**  
 
 ![Demo](web/preview.png)  
@@ -18,7 +18,7 @@
 ## 🛠 Installation  
 
 1. Clone the repo to `ComfyUI/custom_nodes/`:    
-git clone https://github.com/Raykosan/RaykoStudio-SaturationNode.git  
+git clone [https://github.com/Raykosan/RaykoStudio-SaturationNode.git](https://github.com/Raykosan/ComfyUI_RS-SaturationNode)  
 Restart ComfyUI.
 
 2. Copy the RaykoStudio_Nodes folder to: ComfyUI/custom_nodes/  
@@ -61,8 +61,8 @@ MIT License. Free for commercial use.
 ## 🤝 Support
 
 Report issues or suggest improvements:  
-[Create a GitHub issue](https://github.com/Raykosan/RaykoStudio-SaturationNode/issues)
+[Create a GitHub issue](https://github.com/Raykosan/RaykoStudio-SaturationNode/issues)  
 
----
+---  
 
-  > "The best saturation is the one you don’t notice" © RaykoStudio 2025
+> "The best saturation is the one you don’t notice" © RaykoStudio 2025
