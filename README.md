@@ -26,34 +26,33 @@ Restart ComfyUI
 
 ## 🎛 Usage
 
-    [ 🦊 RS Safe Saturation ]
-    ├── Image: [Connect input]
-    ├── Intensity: 1.0 (0.0-3.0)
-    ├── 0.0 = Grayscale
-    ├── 1.0 = Original
-    ├── 1.5 = Subtle boost
-    └── 3.0 = Max safe saturation
-    └── Output: [Processed image]
+🦊 RS Safe Saturation  
+| Диапазон    | Тип обработки                  | Применение                  |
+|-------------|--------------------------------|----------------------------|
+| 0.0-0.9     | Тонирование/уменьшение насыщенности | Плавное обесцвечивание |
+| 1.0-1.3     | Естественное усиление          | Рекомендуемый диапазон  |
+| 1.3-2.0     | Яркие художественные эффекты   | Стилизация              |
+| 2.0-3.0     | Максимальная насыщенность      | Спецэффекты             |
 
 ## ⚙️ Technical Details  
+
 Algorithm workflow:
 
-    Luminance space conversion
+Luminance space conversion
 
-    Non-linear adjustment:
+Non-linear adjustment:
+Values <1.0: Linear interpolation
+Values >1.0: Adaptive S-curve
 
-        Values <1.0: Linear interpolation
+Auto highlight recovery
 
-        Values >1.0: Adaptive S-curve
-
-    Auto highlight recovery
-
-Recommended settings:
-Intensity	Effect
-    0.0-0.9	Toning/desaturation
-    1.0-1.3	Natural enhancement (recommended)
-    1.3-2.0	Vibrant artistic effects
-    2.0-3.0	Cinematic saturation
+Recommended settings:  
+| Intensity  | Effect                          |
+|------------|---------------------------------|
+| 0.0-0.9    | Toning/desaturation             |
+| 1.0-1.3    | Natural enhancement (recommended) |
+| 1.3-2.0    | Vibrant artistic effects        |
+| 2.0-3.0    | Cinematic saturation           |
 	
 ## 📜 License
 
