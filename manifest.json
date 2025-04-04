@@ -1,0 +1,10 @@
+{
+    "name": "🦊 RS Saturation Switch",
+    "author": "RaykoStudio",
+    "version": "1.0.0",
+    "comfyui": "0.3.27",
+    "description": "Adaptive saturation control with highlight protection",
+    "node_classes": ["RS_SaturationSwitch"],
+    "tags": ["image", "saturation", "adjustment"],
+    "requirements": ["torch>=2.6.0"]
+}
