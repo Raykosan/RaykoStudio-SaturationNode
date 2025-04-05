@@ -1,0 +1,14 @@
+[project]
+name = "rs-saturationnode"
+description = "Professional image saturation control with artifact and highlight protection."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/Raykosan/ComfyUI_RS-SaturationNode"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_RS-SaturationNode"
+Icon = ""
