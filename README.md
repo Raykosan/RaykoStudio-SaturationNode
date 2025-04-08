@@ -13,18 +13,20 @@
 - **Batch processing** optimized  
 - **Supports**: Windows/Linux · Python 3.11+ · PyTorch 2.0+  
 
----
+---  
 
 ## 🛠 Installation  
 
-1. Clone the repo to `ComfyUI/custom_nodes/`:    
+1. Clone the repo to `ComfyUI/custom_nodes/`:  
 git clone [https://github.com/Raykosan/RaykoStudio-SaturationNode.git](https://github.com/Raykosan/ComfyUI_RS-SaturationNode)  
 Restart ComfyUI.
 
 2. Copy the RaykoStudio_Nodes folder to: ComfyUI/custom_nodes/  
 Restart ComfyUI
 
-## 🎛 Usage
+3. You can install this node using the ComfyUI_Manager  
+
+## 🎛 Usage  
 
 🦊 RS Safe Saturation  
 | Range      | Processing Type               | Use Case                     |
@@ -36,15 +38,15 @@ Restart ComfyUI
 
 ## ⚙️ Technical Details  
 
-Algorithm workflow:
+Algorithm workflow:  
 
-Luminance space conversion
+Luminance space conversion  
 
-Non-linear adjustment:
-Values <1.0: Linear interpolation
-Values >1.0: Adaptive S-curve
+Non-linear adjustment:  
+Values <1.0: Linear interpolation  
+Values >1.0: Adaptive S-curve  
 
-Auto highlight recovery
+Auto highlight recovery  
 
 Recommended settings:  
 | Intensity  | Effect                          |
@@ -54,11 +56,11 @@ Recommended settings:
 | 1.3-2.0    | Vibrant artistic effects        |
 | 2.0-3.0    | Cinematic saturation           |
 	
-## 📜 License
+## 📜 License  
 
-MIT License. Free for commercial use.
+MIT License. Free for commercial use.  
 
-## 🤝 Support
+## 🤝 Support  
 
 Report issues or suggest improvements:  
 [Create a GitHub issue](https://github.com/Raykosan/RaykoStudio-SaturationNode/issues)  
